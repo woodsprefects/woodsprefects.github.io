@@ -328,9 +328,6 @@ header .intro-text .intro-heading {
     }
 }
 
-section {
-    padding: 100px 0;
-}
 
 section h2.section-heading {
     margin-top: 0;
@@ -339,7 +336,6 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -661,9 +657,10 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    height:400px;
 }
 
 section#contact .section-heading {
@@ -676,7 +673,6 @@ section#contact .form-group {
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px;
 }
 
 section#contact .form-group input.form-control {
@@ -734,6 +730,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color:white;
 }
 
 footer ul.quicklinks {
